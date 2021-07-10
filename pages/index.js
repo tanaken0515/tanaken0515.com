@@ -9,10 +9,13 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
         <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          ソフトウェアエンジニアをやっています。Rubyと犬が好きです。<br/>
+          <br/>
+          東京在住ですが、鹿児島のRubyコミュニティである<a href="https://k-ruby.github.io/">K-Ruby</a>のメンバーです。
+          興味のある分野はWebアプリケーションの開発とCRE(Customer Reliability Engineering)と自然言語処理で、飼っている犬はゴールデンレトリバーです。<br/>
+          <br/>
+          現在はGMOペパボ株式会社で<a href="https://suzuri.jp">SUZURI</a>の開発に携わっています。
         </p>
       </section>
     </Layout>

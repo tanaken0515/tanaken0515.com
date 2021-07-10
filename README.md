@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+[@tanaken0515](https://twitter.com/tanaken0515)'s official website.
