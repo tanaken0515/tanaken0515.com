@@ -1,13 +1,23 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Image from 'next/image'
+import Layout, { name, siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Image
+        priority
+        src="/images/profile.png"
+        className={utilStyles.borderCircle}
+        height={144}
+        width={144}
+        alt={name}
+      />
+      <h1 className={utilStyles.heading2Xl}>{name}</h1>
       <section className={utilStyles.headingMd}>
         <p>
           ソフトウェアエンジニアをやっています。Rubyと犬が好きです。<br/>
