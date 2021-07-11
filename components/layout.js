@@ -9,7 +9,7 @@ export const siteTitle = 'tanaken0515.com'
 
 export default function Layout({ children }) {
   return (
-    <Container maxWidth='lg'>
+    <Container maxWidth='md'>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta

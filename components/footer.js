@@ -31,7 +31,7 @@ export default function Footer(props) {
 
   return (
     <footer className={classes.footer}>
-      <Container maxWidth="lg">
+      <Container maxWidth='md'>
         <Typography variant="subtitle1" align="center" gutterBottom>
           <Link color="inherit" href='/'>
             {title}
