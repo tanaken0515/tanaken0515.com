@@ -1,23 +1,29 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout, { name, siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import { makeStyles } from '@material-ui/core/styles'
+import Avatar from '@material-ui/core/Avatar'
+
+const useStyles = makeStyles((theme) => ({
+  avatar: {
+    width: theme.spacing(16),
+    height: theme.spacing(16),
+    margin: theme.spacing(2),
+  },
+}))
 
 export default function Home() {
+  const classes = useStyles()
+
   return (
     <Layout>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <Image
-        priority
-        src="/images/profile.png"
-        className={utilStyles.borderCircle}
-        height={144}
-        width={144}
-        alt={name}
-      />
-      <h1 className={utilStyles.heading2Xl}>{name}</h1>
+      <section>
+        <Avatar alt={name} src="/images/profile.png" className={classes.avatar} />
+        <h1 className={utilStyles.heading2Xl}>{name}</h1>
+      </section>
       <section className={utilStyles.headingMd}>
         <p>
           ソフトウェアエンジニアをやっています。Rubyと犬が好きです。<br/>
