@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout, { name, siteTitle } from '../components/layout'
+import TopicsTimeline from '../components/TopicsTimeline'
 import { makeStyles } from '@material-ui/core/styles'
 import Avatar from '@material-ui/core/Avatar'
 import Link from '@material-ui/core/Link'
@@ -11,10 +12,20 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(16),
     margin: theme.spacing(2),
   },
+  topicsHeader: {
+    marginTop: theme.spacing(2)
+  }
 }))
 
 export default function Home() {
   const classes = useStyles()
+  const topics = [
+    { date: '2021-07-01', content: 'sample01' },
+    { date: '2021-07-02', content: 'sample02' },
+    { date: '2021-07-03', content: 'sample03' },
+    { date: '2021-07-04', content: 'sample04' },
+    { date: '2021-07-05', content: 'sample05' },
+  ]
 
   return (
     <Layout>
@@ -36,6 +47,10 @@ export default function Home() {
           <Link href='https://suzuri.jp' target='_blank' rel='noopener'>SUZURI</Link>
           の開発に携わっています。
         </Typography>
+      </section>
+      <section>
+        <Typography variant='h5' className={classes.topicsHeader}>Topics</Typography>
+        <TopicsTimeline items={topics}/>
       </section>
     </Layout>
   )
