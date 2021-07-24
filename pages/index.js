@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout, { name, siteTitle } from '../components/layout'
+import TopicsTimeline from '../components/TopicsTimeline'
 import TopicsList from '../components/TopicsList'
 import { makeStyles } from '@material-ui/core/styles'
 import Avatar from '@material-ui/core/Avatar'
