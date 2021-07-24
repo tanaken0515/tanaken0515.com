@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout, { name, siteTitle } from '../components/layout'
 import TopicsTimeline from '../components/TopicsTimeline'
+import TopicsList from '../components/TopicsList'
 import { makeStyles } from '@material-ui/core/styles'
 import Avatar from '@material-ui/core/Avatar'
 import Link from '@material-ui/core/Link'
@@ -53,7 +54,7 @@ export default function Home({ topics }) {
       </section>
       <section>
         <Typography variant='h5' className={classes.topicsHeader}>Topics</Typography>
-        <TopicsTimeline items={topics}/>
+        <TopicsList items={topics}/>
       </section>
     </Layout>
   )

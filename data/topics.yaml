@@ -2,18 +2,24 @@ list:
   -
     date: 2021-03-01
     content: 車を買いました🚙
+    category: hobby
   -
     date: 2021-03-01
     content: エンジニアリングリードという職位に就きました
+    category: work
   -
     date: 2021-05-28
     content: 親知らずを抜歯しました🦷
+    category: care
   -
     date: 2021-06-17
     content: SUZURIのCREチームについて発表しました
+    category: talk
   -
     date: 2021-06-23
     content: ラテちゃんの1歳を祝して山中湖を旅行しました🐕
+    category: hobby
   -
     date: 2021-07-24
     content: tanaken0515.comを開設しました
+    category: output
