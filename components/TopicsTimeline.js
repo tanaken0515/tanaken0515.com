@@ -13,6 +13,9 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: '6px 16px',
   },
+  content: {
+    whiteSpace: 'pre-wrap',
+  }
 }));
 
 function TopicsTimelineItem(props) {
@@ -30,7 +33,7 @@ function TopicsTimelineItem(props) {
       </TimelineSeparator>
       <TimelineContent>
         <Paper elevation={2} className={classes.paper}>
-          <Typography>{content}</Typography>
+          <Typography className={classes.content}>{content}</Typography>
         </Paper>
       </TimelineContent>
     </TimelineItem>
