@@ -13,6 +13,7 @@
     "@material-ui/lab": "^4.0.0-alpha.60",
     "next": "^10.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "yaml": "^1.10.2"
   }
 }
