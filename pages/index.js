@@ -5,6 +5,16 @@ import { makeStyles } from '@material-ui/core/styles'
 import Avatar from '@material-ui/core/Avatar'
 import Link from '@material-ui/core/Link'
 import Typography from '@material-ui/core/Typography'
+import { getSortedTopics } from '../lib/topics'
+
+export async function getStaticProps() {
+  const topics = getSortedTopics()
+  return {
+    props: {
+      topics
+    }
+  }
+}
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -17,15 +27,8 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-export default function Home() {
+export default function Home({ topics }) {
   const classes = useStyles()
-  const topics = [
-    { date: '2021-07-01', content: 'sample01' },
-    { date: '2021-07-02', content: 'sample02' },
-    { date: '2021-07-03', content: 'sample03' },
-    { date: '2021-07-04', content: 'sample04' },
-    { date: '2021-07-05', content: 'sample05' },
-  ]
 
   return (
     <Layout>
