@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography'
 const useStyles = makeStyles((theme) => ({
   toolbar: {
     borderBottom: `1px solid ${theme.palette.divider}`,
+    minHeight: theme.spacing(5),
   },
   toolbarTitle: {
     flex: 1,
@@ -20,8 +21,8 @@ export default function Header(props) {
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
         <Typography
-          component="h2"
-          variant="h5"
+          component="h1"
+          variant='subtitle1'
           color="inherit"
           align="center"
           noWrap
