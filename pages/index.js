@@ -33,7 +33,7 @@ export default function Home({ topics }) {
   return (
     <Layout>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Home - {siteTitle}</title>
       </Head>
       <section>
         <Avatar alt={name} src="/images/profile.png" className={classes.avatar} />
