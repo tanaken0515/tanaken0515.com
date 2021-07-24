@@ -6,25 +6,27 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
-  paper: {
-    padding: '6px 16px',
+  root: {
+    padding: 'unset',
   },
   content: {
     whiteSpace: 'pre-wrap',
-  }
+  },
+  oppositeContent: {
+    flex: 'inherit'
+  },
 }));
 
-function TopicsTimelineItem(props) {
+function Item(props) {
   const classes = useStyles();
   const { date, content, isLast } = props;
 
   return (
     <TimelineItem>
-      <TimelineOppositeContent>
+      <TimelineOppositeContent className={classes.oppositeContent}>
         <Typography color="textSecondary">{date}</Typography>
       </TimelineOppositeContent>
       <TimelineSeparator>
@@ -32,22 +34,21 @@ function TopicsTimelineItem(props) {
         {!isLast && <TimelineConnector />}
       </TimelineSeparator>
       <TimelineContent>
-        <Paper elevation={2} className={classes.paper}>
-          <Typography className={classes.content}>{content}</Typography>
-        </Paper>
+        <Typography className={classes.content}>{content}</Typography>
       </TimelineContent>
     </TimelineItem>
   );
 }
 
 
-export default function TopicsTimeline(props) {
+export default function BasicTimeline(props) {
+  const classes = useStyles();
   const { items } = props;
 
   return (
-    <Timeline>
+    <Timeline className={classes.root}>
       { items.map(( {date, content}, index ) => (
-        <TopicsTimelineItem key={index} date={date} content={content} isLast={index === items.length - 1} />
+        <Item key={index} date={date} content={content} isLast={index === items.length - 1} />
       )) }
     </Timeline>
   );
