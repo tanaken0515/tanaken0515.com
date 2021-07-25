@@ -1,17 +1,25 @@
+import React from 'react'
 import Head from 'next/head'
-import Layout, { name, siteTitle } from '../components/layout'
+import Layout, { siteTitle } from '../components/layout'
+import About from '../components/About'
+import Profile from '../components/Profile'
 import TopicsList from '../components/TopicsList'
 import { makeStyles } from '@material-ui/core/styles'
-import Avatar from '@material-ui/core/Avatar'
-import Link from '@material-ui/core/Link'
-import Typography from '@material-ui/core/Typography'
+import { getSortedCareers } from "../lib/careers";
 import { getSortedTopics } from '../lib/topics'
+import Tab from '@material-ui/core/Tab'
+import TabPanel from '@material-ui/lab/TabPanel'
+import TabContext from '@material-ui/lab/TabContext'
+import TabList from '@material-ui/lab/TabList'
 
 export async function getStaticProps() {
+  const careers = getSortedCareers()
   const topics = getSortedTopics()
+
   return {
     props: {
-      topics
+      careers,
+      topics,
     }
   }
 }
@@ -22,38 +30,46 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(16),
     margin: theme.spacing(2),
   },
-  topicsHeader: {
-    marginTop: theme.spacing(2)
-  }
+  tabPanel: {
+    padding: 'unset'
+  },
 }))
 
-export default function Home({ topics }) {
+export default function Home({ careers, topics }) {
   const classes = useStyles()
+  const [value, setValue] = React.useState('topics')
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue)
+  }
 
   return (
     <Layout>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Home - {siteTitle}</title>
       </Head>
       <section>
-        <Avatar alt={name} src="/images/profile.png" className={classes.avatar} />
-        <Typography variant='h4' gutterBottom>{name}</Typography>
-        <Typography variant='body1'>
-          ソフトウェアエンジニアをやっています。Rubyと犬が好きです。<br/>
-          <br/>
-          東京在住ですが、鹿児島のRubyコミュニティである
-          <Link href='https://k-ruby.github.io/' target='_blank' rel='noopener'>K-Ruby</Link>
-          のメンバーです。
-          興味のある分野はWebアプリケーションの開発とCRE(Customer Reliability Engineering)と自然言語処理で、飼っている犬はゴールデンレトリバーです。<br/>
-          <br/>
-          現在はGMOペパボ株式会社で
-          <Link href='https://suzuri.jp' target='_blank' rel='noopener'>SUZURI</Link>
-          の開発に携わっています。
-        </Typography>
+        <Profile />
       </section>
       <section>
-        <Typography variant='h5' className={classes.topicsHeader}>Topics</Typography>
-        <TopicsList items={topics}/>
+        <TabContext value={value}>
+          <TabList
+            onChange={handleChange}
+            indicatorColor='primary'
+            textColor='primary'
+            variant='fullWidth'
+            centered
+          >
+            <Tab label='Topics' value='topics' />
+            <Tab label='About' value='about' />
+          </TabList>
+          <TabPanel value='topics' className={classes.tabPanel}>
+            <TopicsList items={topics}/>
+          </TabPanel>
+          <TabPanel value='about' className={classes.tabPanel}>
+            <About careers={careers}/>
+          </TabPanel>
+        </TabContext>
       </section>
     </Layout>
   )
