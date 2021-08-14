@@ -1,5 +1,101 @@
 list:
   -
+    date: 2018-09-03
+    content: GMOペパボでお仕事をはじめました
+    category: work
+  -
+    date: 2018-11-26
+    content: ブログを書きはじめました
+    category: output
+  -
+    date: 2019-02-02
+    content: 読書を習慣化する試みをはじめました
+    category: hobby
+  -
+    date: 2019-04-18
+    content: RubyKaigi 2019に参加しました
+    category: hobby
+  -
+    date: 2019-04-23
+    content: フロリダのウォルト・ディズニー・ワールドに旅行に行きました
+    category: hobby
+  -
+    date: 2019-08-31
+    content: RailsのCHANGELOGを読む活動をはじめました
+    category: hobby
+  -
+    date: 2019-09-21
+    content: 同僚たちとキャンプに行きました
+    category: hobby
+  -
+    date: 2019-11-01
+    content: Rails Girls Fukuoka 2ndでコーチをしました
+    category: talk
+  -
+    date: 2019-11-30
+    content: 鹿児島Ruby会議01でDeep Learningについて発表しました
+    category: talk
+  -
+    date: 2019-12-23
+    content: AtCoderをはじめました
+    category: hobby
+  -
+    date: 2020-01-27
+    content: COVID-19の感染拡大に備えて、一時的に在宅勤務体制になりました
+    category: work
+  -
+    date: 2020-02-01
+    content: 株式会社bosyuで業務委託のお仕事をはじめました
+    category: work
+  -
+    date: 2020-02-14
+    content: Rails Girls Tokyo 13thでコーチをしました
+    category: talk
+  -
+    date: 2020-02-25
+    content: COTOHA APIのRubyGemをつくりました
+    category: output
+  -
+    date: 2020-05-15
+    content: 30歳になりました🎂
+    category: hobby
+  -
+    date: 2020-06-01
+    content: 永続的に在宅勤務体制になったため、本格的に在宅勤務環境の整備に取り組みはじめました
+    category: work
+  -
+    date: 2020-08-16
+    content: 新居に引っ越しました🏠
+    category: hobby
+  -
+    date: 2020-09-04
+    content: RubyKaigi Takeout 2020に参加しました
+    category: hobby
+  -
+    date: 2020-10-11
+    content: Scrapboxに日記を書き始めました📝
+    category: output
+  -
+    date: 2020-11-10
+    content: 結婚記念日を祝して旅行をしました
+    category: hobby
+  -
+    date: 2020-12-30
+    content: 愛犬を初めてドッグランに連れていきました🐕
+    category: hobby
+  -
+    date: 2021-01-03
+    content: 年末年始は発熱でずっと寝ていました
+    category: care
+  -
+    date: 2021-01-12
+    content: SNSのキャンペーンに応募したら一番搾り1ケースが当たりました🍻
+    category: hobby
+  -
+    date: 2021-02-13
+    content: オープンセミナー岡山2020でSUZURIのものづくりについて発表しました
+    category: talk
+  -
     date: 2021-03-01
     content: 車を買いました🚙
     category: hobby
@@ -17,7 +113,7 @@ list:
     category: talk
   -
     date: 2021-06-23
-    content: ラテちゃんの1歳を祝して山中湖を旅行しました🐕
+    content: 愛犬の1歳を祝して山中湖を旅行しました🐕
     category: hobby
   -
     date: 2021-07-24
