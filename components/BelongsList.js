@@ -1,3 +1,4 @@
+import Link from '@material-ui/core/Link'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -17,7 +18,11 @@ export default function BelongsList() {
             <Work />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary='GMOペパボ株式会社' />
+        <ListItemText
+          primary={
+            <Link color='inherit' href='https://pepabo.com/' target='_blank' rel='noopener'>GMOペパボ株式会社</Link>
+          }
+        />
       </ListItem>
       <ListItem>
         <ListItemAvatar>
@@ -25,7 +30,11 @@ export default function BelongsList() {
             <Code />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary='K-Ruby' />
+        <ListItemText
+          primary={
+            <Link color='inherit' href='https://k-ruby.github.io/' target='_blank' rel='noopener'>K-Ruby</Link>
+          }
+        />
       </ListItem>
     </List>
   )
