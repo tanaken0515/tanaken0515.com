@@ -119,3 +119,15 @@ list:
     date: 2021-07-24
     content: tanaken0515.comを開設しました
     category: output
+  -
+    date: 2021-08-26
+    content: Ruby日記を書きはじめました
+    category: output
+  -
+    date: 2021-08-28
+    content: Rails Girls Gathering Japan 2021に参加しました
+    category: hobby
+  -
+    date: 2021-09-09
+    content: RubyKaigi Takeout 2021に参加しました
+    category: hobby
