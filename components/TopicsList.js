@@ -1,6 +1,8 @@
 import { makeStyles } from '@material-ui/core/styles';
+import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
+import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
 import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
@@ -8,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import {
   Create,
+  ExitToApp,
   RecordVoiceOver,
   Star,
   WbSunny,
@@ -47,7 +50,7 @@ function TopicAvatarIcon(props) {
 
 function TopicsListItem(props) {
   const classes = useStyles();
-  const { date, content, category, isLast } = props;
+  const { date, content, category, link, isLast } = props;
 
   return (
     <>
@@ -63,6 +66,13 @@ function TopicsListItem(props) {
           }
           secondary={date}
         />
+        {link &&
+          <ListItemSecondaryAction>
+            <IconButton edge='end' href={link} target='_blank' rel='noopener'>
+              <ExitToApp />
+            </IconButton>
+          </ListItemSecondaryAction>
+        }
       </ListItem>
       {!isLast && <Divider variant="inset" component="li" />}
     </>
@@ -75,8 +85,8 @@ export default function TopicsList(props) {
 
   return (
     <List>
-      { items.map(( {date, content, category}, index ) => (
-        <TopicsListItem key={index} date={date} content={content} category={category} isLast={index === items.length - 1} />
+      { items.map(( {date, content, category, link}, index ) => (
+        <TopicsListItem key={index} date={date} content={content} category={category} link={link} isLast={index === items.length - 1} />
       )) }
     </List>
   );
