@@ -3,26 +3,32 @@ list:
     date: 2018-09-03
     content: GMOペパボでお仕事をはじめました
     category: work
+    link: https://tanaken0515.hatenablog.com/entry/2018/12/02/122831
   -
     date: 2018-11-26
     content: ブログを書きはじめました
     category: output
+    link: https://tanaken0515.hatenablog.com/entry/2018/11/26/164655
   -
     date: 2019-02-02
     content: 読書を習慣化する試みをはじめました
     category: hobby
+    link: https://tanaken0515.hatenablog.com/entry/2019/02/02/153317
   -
     date: 2019-04-18
     content: RubyKaigi 2019に参加しました
     category: hobby
+    link: https://tech.pepabo.com/2019/04/26/rubykaigi-2019-v1/
   -
     date: 2019-04-23
     content: フロリダのウォルト・ディズニー・ワールドに旅行に行きました
     category: hobby
+    link: https://tanaken0515.hatenablog.com/entry/2019/05/12/151357
   -
     date: 2019-08-31
     content: RailsのCHANGELOGを読む活動をはじめました
     category: hobby
+    link: https://tanaken0515.hatenablog.com/entry/2019/08/31/231633
   -
     date: 2019-09-21
     content: 同僚たちとキャンプに行きました
@@ -31,10 +37,12 @@ list:
     date: 2019-11-01
     content: Rails Girls Fukuoka 2ndでコーチをしました
     category: talk
+    link: https://tanaken0515.hatenablog.com/entry/2019/11/04/153844
   -
     date: 2019-11-30
     content: 鹿児島Ruby会議01でDeep Learningについて発表しました
     category: talk
+    link: https://speakerdeck.com/tanaken0515/introduction-of-deep-learning-for-rubyist
   -
     date: 2019-12-23
     content: AtCoderをはじめました
@@ -51,10 +59,12 @@ list:
     date: 2020-02-14
     content: Rails Girls Tokyo 13thでコーチをしました
     category: talk
+    link: https://speakerdeck.com/tanaken0515/rails-girls-tokyo-13th-sponsor-lightning-talk
   -
     date: 2020-02-25
     content: COTOHA APIのRubyGemをつくりました
     category: output
+    link: https://tanaken0515.hatenablog.com/entry/2020/02/28/101019
   -
     date: 2020-05-15
     content: 30歳になりました🎂
@@ -75,6 +85,7 @@ list:
     date: 2020-10-11
     content: Scrapboxに日記を書き始めました📝
     category: output
+    link: https://scrapbox.io/tanaken0515/2020-10-11
   -
     date: 2020-11-10
     content: 結婚記念日を祝して旅行をしました
@@ -91,10 +102,12 @@ list:
     date: 2021-01-12
     content: SNSのキャンペーンに応募したら一番搾り1ケースが当たりました🍻
     category: hobby
+    link: https://twitter.com/tanaken0515/status/1348910981758414853
   -
     date: 2021-02-13
     content: オープンセミナー岡山2020でSUZURIのものづくりについて発表しました
     category: talk
+    link: https://speakerdeck.com/tanaken0515/creator-mind-of-suzuri
   -
     date: 2021-03-01
     content: 車を買いました🚙
@@ -107,14 +120,17 @@ list:
     date: 2021-05-28
     content: 親知らずを抜歯しました🦷
     category: care
+    link: https://tanaken0515.hatenablog.com/entry/2021/06/12/110025
   -
     date: 2021-06-17
     content: SUZURIのCREチームについて発表しました
     category: talk
+    link: https://speakerdeck.com/tanaken0515/retrospective-of-suzuri-cre-1st-year
   -
     date: 2021-06-23
     content: 愛犬の1歳を祝して山中湖を旅行しました🐕
     category: hobby
+    link: https://twitter.com/tanaken0515/status/1407148068152111138
   -
     date: 2021-07-24
     content: tanaken0515.comを開設しました
@@ -123,11 +139,23 @@ list:
     date: 2021-08-26
     content: Ruby日記を書きはじめました
     category: output
+    link: https://scrapbox.io/tanaken0515/Ruby_日記
   -
     date: 2021-08-28
     content: Rails Girls Gathering Japan 2021に参加しました
     category: hobby
+    link: https://scrapbox.io/tanaken0515/Rails_Girls_Gathering_Japan_2021
   -
     date: 2021-09-09
     content: RubyKaigi Takeout 2021に参加しました
     category: hobby
+    link: https://scrapbox.io/tanaken0515/RubyKaigi_Takeout_2021
+  -
+    date: 2021-09-13
+    content: MacBook Air (M1, 2020)を購入しました
+    category: hobby
+  -
+    date: 2021-10-02
+    content: てくてくラジオの配信を開始しました
+    category: talk
+    link: https://anchor.fm/tektek-radio
