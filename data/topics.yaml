@@ -150,3 +150,12 @@ list:
     content: RubyKaigi Takeout 2021に参加しました
     category: hobby
     link: https://scrapbox.io/tanaken0515/RubyKaigi_Takeout_2021
+  -
+    date: 2021-09-13
+    content: MacBook Air (M1, 2020)を購入しました
+    category: hobby
+  -
+    date: 2021-10-02
+    content: てくてくラジオの配信を開始しました
+    category: talk
+    link: https://anchor.fm/tektek-radio
