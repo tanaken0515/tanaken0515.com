@@ -159,3 +159,23 @@ list:
     content: てくてくラジオの配信を開始しました
     category: talk
     link: https://anchor.fm/tektek-radio
+  -
+    date: 2021-10-11
+    content: 日記を書き始めて1年が経過しました
+    category: output
+    link: https://tanaken0515.hatenablog.com/entry/2021/10/31/211123
+  -
+    date: 2021-10-22
+    content: Kaigi on Rails 2021に参加しました
+    category: hobby
+    link: https://kaigionrails.org/2021/
+  -
+    date: 2021-11-18
+    content: ペパボのCRE/CSのイベントを主催し、発表しました
+    category: talk
+    link: https://pepabo.connpass.com/event/229248/
+  -
+    date: 2021-11-27
+    content: オープンセミナー岡山2021に参加しました
+    category: hobby
+    link: https://oso.connpass.com/event/225435/
