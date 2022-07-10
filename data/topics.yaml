@@ -179,3 +179,70 @@ list:
     content: オープンセミナー岡山2021に参加しました
     category: hobby
     link: https://oso.connpass.com/event/225435/
+  -
+    date: 2021-12-03
+    content: 角谷トーク2021に参加しました
+    category: hobby
+    link: https://fjordbootcamp.connpass.com/event/231603/
+  -
+    date: 2021-12-18
+    content: 発熱で3日間ほど寝込みました
+    category: care
+    link: https://scrapbox.io/tanaken0515/2021-12-18
+  -
+    date: 2022-01-22
+    content: 姉夫婦とともに1泊でグランピングに行きました
+    category: hobby
+    link: https://scrapbox.io/tanaken0515/2022-01-22
+  -
+    date: 2022-02-02
+    content: ずっと取り組んでいた会計周りの開発がやっとひと段落しました
+    category: work
+  -
+    date: 2022-02-22
+    content: 軽井沢を旅行しました
+    category: hobby
+  -
+    date: 2022-02-26
+    content: 大名エンジニアカレッジの「Docker・CI/CDのブートストラップ講座」に参加しました
+    category: hobby
+    link: https://daimyo-college.pepabo.com/
+  -
+    date: 2022-03-09
+    content: SUZURIのアイテムをPayPayで買えるようにしました
+    category: work
+    link: https://suzuri.jp/surisurikun/journals/2022-02-22-1645507663
+  -
+    date: 2022-03-21
+    content: 高尾山でハイキングしました
+    category: hobby
+    link: https://twitter.com/latte20200623/status/1505871104333983746
+  -
+    date: 2022-04-26
+    content: 初めてのキャンプに行きました at ワンダフルネイチャーヴィレッジ
+    category: hobby
+    link: https://twitter.com/latte20200623/status/1518929149213442049
+  -
+    date: 2022-05-05
+    content: 初めてマーダーミステリーをやりました
+    category: hobby
+    link: https://twitter.com/tanaken0515/status/1522195789493465088
+  -
+    date: 2022-05-14
+    content: 祖父の十七回忌のため帰省しました
+    category: care
+  -
+    date: 2022-05-16
+    content: キャンプに行きました at 山中湖フォレストコテージ
+    category: hobby
+    link: https://twitter.com/latte20200623/status/1526894219247632384
+  -
+    date: 2022-06-24
+    content: Rails Girls Kagoshima 1st でコーチをしました
+    category: talk
+    link: https://railsgirls-kagoshima.connpass.com/event/248131/
+  -
+    date: 2022-06-28
+    content: 箱根を旅行しました
+    category: hobby
+    link: https://twitter.com/latte20200623/status/1526894219247632384
