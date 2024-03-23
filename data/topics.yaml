@@ -290,3 +290,60 @@ list:
     date: 2022-11-08
     content: 劇団四季の「アラジン」を観ました
     category: hobby
+  -
+    date: 2023-01-09
+    content: テニススクールに通いはじめました
+    category: hobby
+  -
+    date: 2023-05-11
+    content: RubyKaigi 2023 に参加しました at 長野県松本市
+    category: hobby
+    link: https://tanaken0515.hatenablog.com/entry/2023/05/31/114103
+  -
+    date: 2023-08-04
+    content: 愛犬のガンが発覚しました
+    category: hobby
+    link: https://tanaken0515.hatenablog.com/entry/2023/10/29/090000
+  -
+    date: 2023-09-01
+    content: GMOペパボに入社してから丸5年が経過しました
+    category: work
+    link: https://tanaken0515.hatenablog.com/entry/2023/09/30/123456
+  -
+    date: 2023-10-21
+    content: 車を買い換えました🚙
+    category: hobby
+  -
+    date: 2023-10-27
+    content: Kaigi on Rails 2023 に参加しました
+    category: hobby
+    link: https://kaigionrails.org/2023/
+  -
+    date: 2023-11-04
+    content: 市民テニス大会に初出場しました
+    category: hobby
+    link: https://scrapbox.io/tanaken0515/2023-11-04:_テニス大会
+  -
+    date: 2023-11-12
+    content: 地域のテニスサークルに入会しました
+    category: hobby
+    link: https://scrapbox.io/tanaken0515/2023-11-12:_感謝のメディボール空中キャッチ喰い
+  -
+    date: 2024-01-06
+    content: 「tanaken on Rails」の配信を開始しました
+    category: talk
+    link: https://listen.style/p/tanaken-on-rails
+  -
+    date: 2024-02-01
+    content: 「たなおと」の配信を開始しました
+    category: talk
+    link: https://listen.style/p/tanaoto
+  -
+    date: 2024-02-29
+    content: GMOペパボを退職しました
+    category: work
+    link: https://tanaken0515.hatenablog.com/entry/2024/02/29/235900
+  -
+    date: 2024-03-01
+    content: Leaner Technologiesでお仕事をはじめました
+    category: work
