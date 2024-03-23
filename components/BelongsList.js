@@ -6,7 +6,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import Avatar from '@material-ui/core/Avatar';
 import {
-  Code,
   ExitToApp,
   Work,
 } from '@material-ui/icons';
@@ -21,25 +20,10 @@ export default function BelongsList() {
           </Avatar>
         </ListItemAvatar>
         <ListItemText
-          primary='GMOペパボ株式会社'
+          primary='株式会社Leaner Technologies'
         />
         <ListItemSecondaryAction>
-          <IconButton edge='end' href='https://pepabo.com/' target='_blank' rel='noopener'>
-            <ExitToApp />
-          </IconButton>
-        </ListItemSecondaryAction>
-      </ListItem>
-      <ListItem>
-        <ListItemAvatar>
-          <Avatar>
-            <Code />
-          </Avatar>
-        </ListItemAvatar>
-        <ListItemText
-          primary='K-Ruby'
-        />
-        <ListItemSecondaryAction>
-          <IconButton edge='end' href='https://k-ruby.github.io/' target='_blank' rel='noopener'>
+          <IconButton edge='end' href='https://leaner.co.jp/' target='_blank' rel='noopener'>
             <ExitToApp />
           </IconButton>
         </ListItemSecondaryAction>
